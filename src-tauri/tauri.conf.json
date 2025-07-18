@@ -1,0 +1,24 @@
+{
+  "productName": "Minimal Wall Clock",
+  "version": "0.1.0",
+  "identifier": "com.example.wallclock",
+  "app": {
+    "windows": [
+      {
+        "title": "Minimal Wall Clock",
+        "fullscreen": true,
+        "decorations": false,
+        "transparent": false,
+        "resizable": false,
+        "alwaysOnTop": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  }
+}
